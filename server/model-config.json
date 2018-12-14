@@ -38,5 +38,9 @@
   "Employee": {
     "dataSource": "mysql",
     "public": true
+  },
+  "Customer": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

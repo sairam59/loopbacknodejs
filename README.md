@@ -55,3 +55,7 @@ Enter an empty property name when done.
 Let's add another Employee property.
 Enter an empty property name when done.
 ? Property name:
+
+#Discovering Models from Database
+
+npm install loopback-connector-mysql --save
