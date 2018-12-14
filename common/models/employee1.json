@@ -1,0 +1,37 @@
+{
+  "name": "Employee",
+  "plural": "employees",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "salary": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "organisation": {
+      "type": "string",
+      "required": true,
+      "default": " "
+    },
+    "address": {
+      "type": "string",
+      "default": " "
+    },
+    "createdDate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
